@@ -1,13 +1,13 @@
 # Pytorch
 
-PyTorch is an open-source machine learning library for Python, fully based on Torch. It is primarily used for applications such as natural language processing (NLP). PyTorch is a redesign and implementation of Torch in Python, while sharing the same core C libraries for backend functionality. The developers of PyTorch have optimized this backend code to run efficiently in Python. They also retained the GPU-based hardware acceleration and extensibility features that made Lua-based Torch popular.
+PyTorch is an open-source Python machine learning library, based on Torch, used for tasks like NLP and image classification. It shares core C libraries with Torch and is optimized for efficient Python execution, with GPU acceleration. PyTorch simplifies building and training CNNs, enabling automated feature extraction and learning from large image datasets.
 
 
 
 
 ## Convolutional Neural Net
 
-A Convolutional Neural Network (ConvNet/CNN) is a deep learning algorithm that can take an input image, assign importance (learnable weights and biases) to different objects or features within the image, and distinguish one from another. The pre-processing required for a ConvNet is much lower compared to other classification algorithms. While traditional methods rely on hand-engineered filters, ConvNets have the ability to learn these filters/characteristics with enough training. The architecture of a ConvNet is inspired by the connectivity pattern of neurons in the human brain, particularly modeled after the organization of the visual cortex. Individual neurons respond to stimuli in a restricted area of the visual field, known as the Receptive Field. A collection of these fields overlaps to cover the entire visual field.
+A Convolutional Neural Network (CNN) is a deep learning algorithm that processes images by learning important features to tell objects apart. Unlike older methods that use hand-made filters, CNNs learn these filters automatically during training. The structure of CNNs is similar to how the brain's neurons work, especially in the visual cortex, where each neuron reacts to a small part of what we see, and together they cover the entire image.
 
 
 
@@ -49,3 +49,4 @@ There are two methods to execute the end-to-end workflow:
 ### IPython 
 
 Follow the instructions in the notebook `CNN.ipynb`
+
